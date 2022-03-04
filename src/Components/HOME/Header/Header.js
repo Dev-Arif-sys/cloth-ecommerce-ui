@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CAROSEL = () => {
+const Header = () => {
     return (
         <div>
 
@@ -8,4 +8,4 @@ const CAROSEL = () => {
     );
 };
 
-export default CAROSEL;
+export default Header;
