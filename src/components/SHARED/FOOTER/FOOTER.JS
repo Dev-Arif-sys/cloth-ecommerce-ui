@@ -1,18 +1,93 @@
 import React from 'react';
+import './Footer.css'
 
-const FOOTER = () => {
+const Footer = () => {
     return (
-        <div>
-            <div className="col-md-5">
-                <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla fugit tenetur, numquam eius nihil accusamus placeat velit incidunt atque sed praesentium laborum quaerat modi amet debitis, sit dolore! Velit perspiciatis debitis reprehenderit magni molestiae soluta, magnam harum ea laudantium earum eos accusamus, id ex illo impedit tenetur quibusdam consequuntur expedita?</h1>
+        <div className="footer-container">
+            <div className="footer">
+                <div className="container">
+                    <div className=" row justify-content-center">
+                        <div className="col-md-5">
+                            <div>
+                                <h3 className="fs-3 fw-bold  "><span className="logo">CLO</span>TH</h3>
+                                <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ut iusto ullam eveniet ipsam similique. </p>
+                            </div>
+                            <div className="social-link">
+
+                            </div>
+                            <div>
+                                <small >copyright &copy;CLOTH</small>
+                            </div>
+                        </div>
+                        {/* our services */}
+                        <div className=" services text-left col-md-2">
+
+                            <ul>
+                                <h5>Company</h5>
+                                <li>
+                                    <a href="">About us</a>
+
+                                </li>
+                                <li>
+                                    <a href="">Branches</a>
+                                </li>
+                                <li>
+                                    <a href="">Seasonal Offers</a>
+                                </li>
+                                <li>
+                                    <a href="">Premium Customers</a>
+                                </li>
+                            </ul>
+
+
+                        </div>
+
+                        {/* our services */}
+                        <div className=" services text-left col-md-2">
+
+                            <ul>
+                                <h5>Services</h5>
+                                <li>
+                                    <a href="">Cloth Exchange</a>
+                                </li>
+                                <li>
+                                    <a href="">Contact</a>
+                                </li>
+                                <li>
+                                    <a href="">Privacy policy</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        {/* our services */}
+
+                        <div className=" services text-left col-md-3">
+
+                            <ul>
+                                <h5>Your Account</h5>
+                                <li>
+                                    <a href="">Your orders</a>
+
+                                </li>
+                                <li>
+                                    <a href="">Your Wishlist</a>
+                                </li>
+                                <li>
+                                    <a href="">Payment</a>
+                                </li>
+                                <li>
+                                    <a href="">Delivery</a>
+                                </li>
+                                <li>
+                                    <a href="">Privacy policy</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div className="col-md-2">
-                <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, tenetur.</h1>
-            </div>
-            <div className="col-md-2">lorem</div>
-            <div className="col-md-3"></div>
         </div>
     );
 };
 
-export default FOOTER;
+export default Footer;
