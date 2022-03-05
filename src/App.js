@@ -1,11 +1,15 @@
 import './App.css';
+import Cart from './Components/Products/Cart/Cart';
+import ProductsDetails from './Components/Products/ProductsDetails/ProductsDetails';
+import Review from './Components/Products/Reviews/Review/Review';
+
 
 function App() {
   return (
     <div className="App">
-      <h3>hello world</h3>
-      <h2>HOME PAGE</h2>
-      <h1>UI</h1>
+      <Cart></Cart>
+      <Review></Review>
+      <ProductsDetails></ProductsDetails>
     </div>
   );
 }
