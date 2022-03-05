@@ -62,35 +62,6 @@
 }
 
 
-
-
-@media only screen and (max-width:880px) {
-    .carousel-img{
-        width: 300px;
-    }
-    
-}
-
-
-@media only screen and (max-width:768px) {
-    .carousel-img{
-        width: 260px;
-    }
-    
-}
-
-@media only screen and (max-width:767px) {
-    .carousel{
-        width: 100%;
-    }
-    .carousel-img{
-        width: 200px;
-       
-    }
-    
-}
-
-
 @media only screen and (max-width:480px) {
     .carousel{
         width: 100%;
