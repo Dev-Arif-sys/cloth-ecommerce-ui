@@ -1,10 +1,9 @@
 import React from 'react';
-import Footer from "../../Shared/Footer/Footer";
 
 const HomeUi = () => {
     return (
         <div>
-            <Footer></Footer>
+            {/* <Footer></Footer> */}
         </div>
     );
 };

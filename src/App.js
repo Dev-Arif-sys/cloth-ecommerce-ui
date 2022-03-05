@@ -1,7 +1,9 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import HomeUi from './Components/HOME/HomeUi/HomeUi';
 import Dashboard from './pages/dashboard/Dashboard';
-import HomeUi from './components/Home/HomeUi/HomeUi';
+
 
 function App() {
   return (
