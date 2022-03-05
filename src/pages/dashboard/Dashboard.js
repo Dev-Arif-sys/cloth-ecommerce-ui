@@ -1,10 +1,11 @@
 import React from 'react';
+import DashboardLayout from '../../Components/DashboardComponents/DashboardLayout/DashboardLayout';
 import './Dashboard';
 
 const Dashboard = () => {
     return (
         <div>
-            <h1>This is dashboard</h1>
+            <DashboardLayout></DashboardLayout>
         </div>
     );
 };
