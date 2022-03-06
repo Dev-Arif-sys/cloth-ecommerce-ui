@@ -1,5 +1,6 @@
 import React from 'react';
 import SalesAnalysis from '../SalesAnalysis/SalesAnalysis';
+import SalesChart from '../SalesAnalysis/SalesChart/SalesChart';
 import './DashboardContent.css';
 
 const DashboardContent = ({setBar}) => {
@@ -16,6 +17,7 @@ const DashboardContent = ({setBar}) => {
             <div className='dashboard-content' onClick={()=>setBar(false)}>
                 <h2>gello</h2>
                <SalesAnalysis></SalesAnalysis>
+               <SalesChart></SalesChart>
             </div>
             
         </div>
