@@ -3,7 +3,6 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import HomeUi from './Components/HOME/HomeUi/HomeUi';
 import Dashboard from './pages/dashboard/Dashboard';
-import HomeUi from './Components/HOME/HomeUi/HomeUi';
 import Appbar from './Components/Shared/Appbar/Appbar';
 
 function App() {
