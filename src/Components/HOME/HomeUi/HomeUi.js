@@ -5,6 +5,7 @@ import Header from '../Header/Header';
 import Offer from '../Offer/Offer';
 import Ratings from '../Ratings/Ratings';
 import Services from '../Services/Services';
+import TrendingProducts from '../TrendingProducts/TrendingProducts';
 
 const HomeUi = () => {
     return (
@@ -14,7 +15,7 @@ const HomeUi = () => {
             <BestProducts></BestProducts>
             <Offer></Offer>
             <hr className='container my-5' />
-            <Ratings></Ratings>
+            <TrendingProducts></TrendingProducts>
             <hr className='container my-5' />
             <Services></Services>
             <Footer></Footer>
