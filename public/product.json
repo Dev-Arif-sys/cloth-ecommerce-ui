@@ -1,0 +1,58 @@
+[
+    {
+        "_id": "6224cb786efeb51d9a9360a2",
+        "name": "Daphne Workman",
+        "company": "EZENTIA",
+        "price": "$1,574.14",
+        "picture": "https://i.ibb.co/BGm0XwM/hdm141-removebg-preview.png"
+    },
+    {
+        "_id": "6224cb784e932abcf9c207ec",
+        "name": "Phyllis Nichols",
+        "company": "PERKLE",
+        "price": "$3,548.02",
+        "picture": "https://i.ibb.co/BGm0XwM/hdm141-removebg-preview.png"
+    },
+    {
+        "_id": "6224cb78e0d26a4f3e47a3e4",
+        "name": "Moody Craft",
+        "company": "ORBALIX",
+        "price": "$1,744.70",
+        "picture": "https://i.ibb.co/BGm0XwM/hdm141-removebg-preview.png"
+    },
+    {
+        "_id": "6224cb78e85d763c9e716a2a",
+        "name": "Hannah Leblanc",
+        "company": "FORTEAN",
+        "price": "$2,010.18",
+        "picture": "https://i.ibb.co/BGm0XwM/hdm141-removebg-preview.png"
+    },
+    {
+        "_id": "6224cb78dd4e63d973285e87",
+        "name": "Morrow Boyer",
+        "company": "CENTICE",
+        "price": "$1,072.55",
+        "picture": "https://i.ibb.co/BGm0XwM/hdm141-removebg-preview.png"
+    },
+    {
+        "_id": "6224cb78a66a2df86f11c135",
+        "name": "Summer Mccullough",
+        "company": "NIKUDA",
+        "price": "$1,386.30",
+        "picture": "https://i.ibb.co/BGm0XwM/hdm141-removebg-preview.png"
+    },
+    {
+        "_id": "6224cb78b997d967604da97a",
+        "name": "Saundra Snyder",
+        "company": "MEMORA",
+        "price": "$3,207.87",
+        "picture": "https://i.ibb.co/BGm0XwM/hdm141-removebg-preview.png"
+    },
+    {
+        "_id": "6224cb7864a7b6a68914594d",
+        "name": "Hinton Dudley",
+        "company": "INVENTURE",
+        "price": "$2,109.23",
+        "picture": "https://i.ibb.co/BGm0XwM/hdm141-removebg-preview.png"
+    }
+]
