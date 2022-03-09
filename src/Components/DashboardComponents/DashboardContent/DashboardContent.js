@@ -7,17 +7,20 @@ const DashboardContent = ({setBar}) => {
    
     return (
         <div >
-            <div className='dashboard-header px-md-5 px-2'>
+            <div className='dashboard-header px-md-5 px-2 sticky-top'>
                 <div> <h4 className='text-center '> <i onClick={()=> setBar(true)} class="bi bi-list"></i> BrandName</h4></div>
                 <div>
                 <input type='text' placeholder='search here'/>
                 </div>
             
             </div>
-            <div className='dashboard-content' onClick={()=>setBar(false)}>
-                <h2>gello</h2>
+            <div className='dashboard-content ' onClick={()=>setBar(false)}>
+                <div className='mx-3'>
+                <h4 className='text-center fw-bold py-2'>Your Dashboard</h4>
                <SalesAnalysis></SalesAnalysis>
                <SalesChart></SalesChart>
+                </div>
+              
             </div>
             
         </div>
