@@ -1,11 +1,11 @@
 import React from 'react';
-import Footer from "../../Shared/Footer/Footer";
+import Footer from '../../SHARED/FOOTER/Footer';
 import BestProducts from '../BestProducts/BestProducts';
 import Header from '../Header/Header';
 import Offer from '../Offer/Offer';
-import Ratings from '../Ratings/Ratings';
 import Services from '../Services/Services';
 import TrendingProducts from '../TrendingProducts/TrendingProducts';
+
 
 const HomeUi = () => {
     return (

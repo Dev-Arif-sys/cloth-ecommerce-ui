@@ -2,8 +2,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import HomeUi from './Components/HOME/HomeUi/HomeUi';
+import Appbar from './Components/SHARED/Appbar/Appbar';
+import CheckOut from './pages/CheckOut/CheckOut';
 import Dashboard from './pages/dashboard/Dashboard';
-import Appbar from './Components/Shared/Appbar/Appbar';
+
+
+
 
 function App() {
   return (
@@ -21,6 +25,7 @@ function App() {
 
         <Route path='/home' element={<HomeUi />} />
         <Route path='/dashboard' element={<Dashboard></Dashboard>} />
+        <Route path='/checkout' element={<CheckOut></CheckOut>} />
       </Routes>
     </BrowserRouter>
   );
