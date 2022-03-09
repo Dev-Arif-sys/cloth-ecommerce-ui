@@ -26,7 +26,13 @@ const Cart = () => {
                                 <td>    Ultra Wireless S50 Headphones S50 with Bluetooth</td>
                                 <td>$ 123</td>
                                 <td>
-
+                                    <div className='flex-grow-1 flex-basis-0 p-1 w-100'>
+                                        <div class="input-group number-spinner">
+                                            <input type="number" min="0" class="border-0 text-center" value="1" />
+                                            <button class="btn btn-default"><i class="fas fa-minus"></i></button>
+                                            <button class="btn btn-default"><i class="fas fa-plus"></i></button>
+                                        </div>
+                                    </div>
                                 </td>
                                 <td>$ 345645646</td>
                             </tr>
@@ -38,7 +44,13 @@ const Cart = () => {
                                 <td>product name</td>
                                 <td>$ 123445</td>
                                 <td>
-
+                                    <div className='flex-grow-1 flex-basis-0 p-1 w-100'>
+                                        <div class="input-group number-spinner">
+                                            <input type="number" min="0" class="border-0 text-center" value="1" />
+                                            <button class="btn btn-default"><i class="fas fa-minus"></i></button>
+                                            <button class="btn btn-default"><i class="fas fa-plus"></i></button>
+                                        </div>
+                                    </div>
                                 </td>
                                 <td>$ 345645646</td>
                             </tr>

@@ -64,13 +64,14 @@ const ProductsDetails = () => {
                                     <div className='mb-2'>Quantity</div>
                                     <div className='d-flex border rounded w-100'>
                                         <div className='flex-grow-1 flex-basis-0 p-1 w-100'>
-                                            <input className='border-0' type="text" value={1} />
-                                        </div>
-                                        <div className='flex-grow-0 p-1 w-auto'>
-                                            <a className='p-2 me-1' href="">1</a>
-                                            <a className='p-2 me-1' href="">1</a>
+                                            <div class="input-group number-spinner">
+                                                <input type="number" min="0" class="border-0 text-center" value="1" />
+                                                <button class="btn btn-default"><i class="fas fa-minus"></i></button>
+                                                <button class="btn btn-default"><i class="fas fa-plus"></i></button>
+                                            </div>
                                         </div>
                                     </div>
+
                                 </div>
                                 <div className='my-3'>
                                     <div className='mb-2'>Color</div>
