@@ -1,16 +1,29 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import HomeUi from './Components/HOME/HomeUi/HomeUi';
+import Dashboard from './pages/dashboard/Dashboard';
+import Appbar from './Components/Shared/Appbar/Appbar';
 import Cart from './Components/Products/Cart/Cart';
-import ProductsDetails from './Components/Products/ProductsDetails/ProductsDetails';
-import Review from './Components/Products/Reviews/Review/Review';
-
 
 function App() {
   return (
-    <div className="App">
-      <Cart></Cart>
-      <Review></Review>
-      <ProductsDetails></ProductsDetails>
-    </div>
+    <BrowserRouter>
+      <Appbar></Appbar>
+      {/* <HomeUi></HomeUi> */}
+      <Routes>
+        {/* <Route exact path="/">
+          <HomeUi></HomeUi>
+        </Route> */}
+        {/* <Route path="/homeUi">
+          <HomeUi></HomeUi>
+        </Route> */}
+        <Route path='/' element={<HomeUi />} />
+        <Route path='/home' element={<HomeUi />} />
+        <Route path='/dashboard' element={<Dashboard></Dashboard>} />
+        <Route path='/cart' element={<Cart />}></Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

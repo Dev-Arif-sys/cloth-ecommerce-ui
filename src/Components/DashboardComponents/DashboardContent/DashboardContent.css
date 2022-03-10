@@ -1,0 +1,48 @@
+.dashboard-header {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+
+  padding-top: 15px;
+  padding-bottom: 10px;
+  display: flex;
+  z-index: 5;
+
+  width: 100%;
+  justify-content: space-between;
+}
+.dashboard-header input {
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  border: none;
+  background-color: rgb(244, 248, 248);
+}
+.dashboard-content {
+  margin-left: 15%;
+  height: 100vh;
+  background-color: rgb(213, 232, 233);
+}
+.bi-list {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .dashboard-content {
+    margin-left: 0%;
+  }
+  .dashboard-header {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+
+    padding-top: 15px;
+    padding-bottom: 10px;
+    display: flex;
+    z-index: 5;
+
+    width: 100%;
+    justify-content: space-between;
+  }
+  .bi-list {
+    display: inline-block;
+  }
+  .dashboard-header input {
+    display: none;
+  }
+}
