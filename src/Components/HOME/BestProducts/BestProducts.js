@@ -1,13 +1,14 @@
-import React, { useEffect, useState } from 'react';
-import Collection from '../Collection/Collection';
+import React, { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { getProduct } from '../../../Redux/Actions/ProductAction';
 
 const BestProducts = () => {
-    const [items, setItems] = useState([])
-
+    
+    const productData=useSelector(state=> state.product)
+    const dispatch=useDispatch()
+   console.log(productData)
     useEffect(() => {
-        fetch('/product.json')
-            .then(res => res.json())
-            .then(data => setItems(data.slice(0, 6)))
+        dispatch(getProduct())
     }, [])
 
     return (
@@ -17,12 +18,12 @@ const BestProducts = () => {
                     <h1>Our Best Products</h1>
                 </div>
                 <div className="row row-cols-1 row-cols-md-3 g-4 my-2">
-                    {
-                        items.map(item => <Collection
+                    {/* {
+                        .map(item => <Collection
                             key={item._id}
                             item={item}
                         ></Collection>)
-                    }
+                    } */}
                 </div>
             </div>
         </div>
