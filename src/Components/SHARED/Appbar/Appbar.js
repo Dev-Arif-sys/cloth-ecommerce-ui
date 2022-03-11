@@ -8,7 +8,7 @@ const Appbar = () => {
         <>
             <Navbar className="bg" bg="none" variant="light" sticky="top" collapseOnSelect expand="lg" >
                 <Container>
-                    <Navbar.Brand href="/home"><h1 className="fs-3 fw-bold  "><span className="logo">CLO</span>TH</h1></Navbar.Brand>
+                    <Navbar.Brand href="/home"><h1 className="fs-3 fw-bold  "><span className="logo">ECL</span>OTH</h1></Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
                         <NavLink className="link" to="/home">Home</NavLink>

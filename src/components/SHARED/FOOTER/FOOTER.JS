@@ -9,14 +9,14 @@ const Footer = () => {
                     <div className=" row justify-content-center">
                         <div className="col-md-5">
                             <div>
-                                <h3 className="fs-3 fw-bold  "><span className="logo">CLO</span>TH</h3>
+                                <h3 className="fs-3 fw-bold  "><span className="logo">ECL</span>OTH</h3>
                                 <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ut iusto ullam eveniet ipsam similique. </p>
                             </div>
                             <div className="social-link">
 
                             </div>
                             <div>
-                                <small >copyright &copy;CLOTH</small>
+                                <small >copyright &copy;ECLOTH</small>
                             </div>
                         </div>
                         {/* our services */}

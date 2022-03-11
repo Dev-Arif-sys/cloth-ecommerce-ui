@@ -1,5 +1,6 @@
 import React from 'react';
-import img1 from '../../../images/hdm141-removebg-preview.png';
+import img1 from '../../../images/img4.png';
+import img2 from '../../../images/img5.png';
 import './Offer.css';
 
 
@@ -17,7 +18,7 @@ const Offer = () => {
                 </div>
 
                 <div className='offer-product'>
-                    <img src={img1} />
+                    <img src={img2} />
                     <div className='offer-product-text'>
                         <p>Best Offer</p>
                         <h6 className='product-heading'>50% off</h6>
