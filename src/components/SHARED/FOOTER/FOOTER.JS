@@ -10,7 +10,7 @@ const Footer = () => {
                         <div className="col-md-5">
                             <div>
                                 <h3 className="fs-3 fw-bold  "><span className="logo">ECL</span>OTH</h3>
-                                <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ut iusto ullam eveniet ipsam similique. </p>
+                                <p >the most wanted ecommerce that you want to have in your area. get a chance.</p>
                             </div>
                             <div className="social-link">
 
