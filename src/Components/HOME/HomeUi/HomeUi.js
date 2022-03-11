@@ -1,5 +1,5 @@
 import React from 'react';
-import Footer from '../../Shared/Footer/Footer';
+import Footer from '../../SHARED/Footer/Footer.js';
 import BestProducts from '../BestProducts/BestProducts';
 import Header from '../Header/Header';
 import Offer from '../Offer/Offer';
